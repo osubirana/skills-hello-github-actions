@@ -5,3 +5,9 @@ on:
       [opened]
 permissions:
   pull-requests: write
+
+jobs:
+  welcome:
+    name: Dis bonjour
+    runs-on: ubuntu-latest
+    
